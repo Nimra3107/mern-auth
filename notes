@@ -1,0 +1,22 @@
+first run npm init to install package.json on server side
+then run this command to install some packages
+        npm i express cors dotenv nodemon jsonwebtoken mongoose bcryptjs nodemailer cookie-parser
+express- to create backend
+cors- to connect front end 
+dotenv- to store environment variable in backend
+nodemon- help to restart backend
+jsonwedtoken- token for authentication
+moongose- help to connect with mongodb
+bcryptjs- encrypte the password and store in database
+nodemailer- help us to send email
+cookie-parser- help to send cookie in api response.
+
+//for client side 
+run npm create vite@latest 
+npm install
+npm insatll axios react-router-dom react-toastify
+
+1- axios means to connect with apis
+2- react-tostify means notification on web 
+
+install vite+taiwind css

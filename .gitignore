@@ -1,0 +1,36 @@
+# =================================
+# Global
+# =================================
+node_modules/
+dist/
+build/
+.env
+*.log
+.DS_Store
+
+# =================================
+# Client
+# =================================
+client/node_modules/
+client/.env
+client/dist/
+client/build/
+client/.vite/
+client/.next/
+client/.nuxt/
+
+# Ignore client lock files if you only want one lock file in repo
+# client/package-lock.json
+# client/yarn.lock
+
+# =================================
+# Server
+# =================================
+server/node_modules/
+server/.env
+server/dist/
+server/build/
+
+# Ignore server lock files if you only want one lock file in repo
+# server/package-lock.json
+# server/yarn.lock
